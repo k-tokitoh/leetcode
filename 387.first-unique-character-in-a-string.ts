@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+// カテゴリはhash map
 function firstUniqChar(s: string): number {
   // hash mapで文字の出現回数をカウント O(n)
   // 文字のuniquenessなので文字をkeyにする必要があるが、最終的にindexがほしいので、indexの配列をvalueにする

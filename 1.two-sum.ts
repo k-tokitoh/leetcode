@@ -8,6 +8,7 @@
 //
 
 // @lc code=start
+// カテゴリはhash map
 function twoSum(nums: number[], target: number): number[] {
   // 値->indexのmapを作成
   // mapの作成がO(n)で、その後の探索もO(n)なので、計算量はO(n)
